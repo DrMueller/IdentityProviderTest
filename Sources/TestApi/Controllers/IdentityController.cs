@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Mmu.IdentityProvider.TestApi.Controllers
 {
     [Authorize]
+    [ApiController]
     [Route("[controller]")]
     public class IdentityController : ControllerBase
     {

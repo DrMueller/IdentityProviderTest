@@ -45,10 +45,10 @@ namespace Mmu.IdentityProvider.TestApi
                 .AddIdentityServerAuthentication(
                     options =>
                     {
-                        options.Authority = "http://localhost:5000";
+                        options.Authority = "https://localhost:44339";
                         options.RequireHttpsMetadata = false;
 
-                        options.ApiName = "CoolWepApi";
+                        options.ApiName = "CoolWebApi";
                     });
         }
     }
